@@ -1,0 +1,110 @@
+*
+{
+margin: 0;
+padding: 0;
+font-family: Century Gothic;
+}
+
+header
+{
+background: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/e5/68/31/exterior.jpg?w=900&h=-1&s=1');
+    background-repeat: no-repeat;
+  background-size: auto;
+  background-size:100% 100%;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(0px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+ul
+{
+float: right;
+list-style-type:none;
+margin-top: 25px;
+}
+
+ul li
+{
+display: inline-block;
+}
+
+ul li a
+{
+text-decoration: none;
+color: #fff;
+padding: 5px 20px;
+border: 1px solid transparent;
+transition: 0.5s ease;
+}
+
+ul li a:hover
+{
+background-color: #fff;
+color: #000;
+}
+
+.logo img
+{
+float: left;
+width: 350px;
+height: auto;
+margin-top: 10px;
+}
+
+.main
+{
+max-width: 1500px;
+margin: auto;
+ }
+
+ul li.active a
+{
+background-color: #fff;
+color: #000;
+}
+
+.title
+{
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+color: #fff;
+font-size: 30px;
+
+}
+
+.button
+{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+.btn
+{
+border: 1px solid #fff;
+padding: 10px 30px;
+color: #fff;
+text-decoration: none;
+transition: 0.5s ease;
+}
+
+.btn:hover
+{
+background-color: #fff;
+color: #000;
+}
